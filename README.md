@@ -29,4 +29,5 @@
 * 5.2. Importancia de la calidad.
 * 5.3. La calidad y la globalización.
 * 5.4. Aseguramiento de la calidad del software (SQA): definición y propósito del SQA, problemas que resuelve el SQA, roles y responsabilidades de los equipos de desarrollo, habilidades y capacidades del personal del SQA, Actividades del SQA.
-* .5. Derecho informático aplicado al software: piratería y falsificación, autoría y creación, contratos y licencias.
+* 5.5. Derecho informático aplicado al software: piratería y 
+falsificación, autoría y creación, contratos y licencias.
