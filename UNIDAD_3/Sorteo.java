@@ -1,5 +1,3 @@
-package sorteo;
-
 import java.util.Scanner;
 
 public class Sorteo {
