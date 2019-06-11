@@ -31,6 +31,21 @@ class Muebles extends CI_Model {
 		header("Location: inicio");
 
 	}
+	public function login_model($email,$pass)
+	{
+		$this->db->where('email',$email);
+		$this->db->where('pass',$pass);
+		$q = $this->db->get('usuarios');
+		if ($q->num_rows()>0) {
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+
+
+	}
 	
 
 }

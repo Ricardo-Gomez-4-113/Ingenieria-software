@@ -25,6 +25,7 @@ public function __construct()
 
 	public function add_mueble()
 	{
+
 		$modelo = $this->input->post('modelo');
 		$material = $this->input->post('material');
 		$color = $this->input->post('color');
@@ -45,8 +46,23 @@ public function __construct()
 
 	public function Log()
 	{
-		$this->load->view('Login/Index');
+		$email = $this->input->post('email');
+		$pass= $this->input->post('pass');
+		$this->Muebles->login_model($email,$pass);
+		if (isset($_POST['pass'])) 
+		{
+			$this->load->model('Muebles');
+			if($this->Muebles->login_model($_POST['email'],$_POST['pass']))
+			{
+				redirect('inicio');
+			}else
+			{
+				redirect('Log');
+			}
+		}
+		$this->load->view('Login/index');
 	}
+	
 	public function inicio()
 	{
 		$this->load->view('inicio_mu');
@@ -75,12 +91,6 @@ public function __construct()
 		$guardar_datos = $this->Muebles->up_model($nombre,$foto);
 	}
 	
-	public function login()
-	{
-		
-		$correo = $this->input->post('correo');
-		$pass = $this->input->post('pass');
-		$guardar_datos = $this->Muebles->log_model($correo,$pass);
-	}
+	
 
 }
