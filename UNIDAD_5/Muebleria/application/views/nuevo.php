@@ -17,7 +17,7 @@
 <hr>
 <div class="row"> 
 	<div class="col-lg-4 col-lg-offset-4 col-xs-12">
-		<form action="<?php echo base_url();?>index.php/Inicio/add_mueble" method="POST" enctype="multipart/form-data" > 
+		<form action="<?php echo base_url();?>index.php/Login/add_mueble" method="POST" enctype="multipart/form-data" > 
 			 <center><table border="1">
             <tr bgcolor="skyblue">
             <td bgcolor="skyblue"><strong>Foto:</strong></td>  <td><input type="file" name="foto" id="foto"></td>

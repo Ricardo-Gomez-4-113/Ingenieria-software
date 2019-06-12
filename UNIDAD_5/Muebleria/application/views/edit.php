@@ -16,7 +16,7 @@
 <hr>
 <div class="row"> 
 	<div class="col-lg-4 col-lg-offset-4 col-xs-12">
-		<form action="<?php echo base_url();?>index.php/Inicio/editar_mu" method="POST">
+		<form action="<?php echo base_url();?>index.php/Login/editar_mu" method="POST">
 		  <div class="form-group">
 		    <label for="text">ID:</label>
 		    <input type="text" class="form-control" name="id">

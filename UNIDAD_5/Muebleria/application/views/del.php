@@ -16,7 +16,7 @@
 	<div class="row"> 
 <title>Eliminar</title>
 <div class="col-lg-4 col-lg-offset-4 col-xs-12">
-	<form action="<?php echo base_url();?>index.php/Inicio/del_us" method="POST">
+	<form action="<?php echo base_url();?>index.php/Login/del_us" method="POST">
 	<form class="form-inline">
   <div class="form-group mb-2">
     <label for="tex" class="sr-only">ID</label>
