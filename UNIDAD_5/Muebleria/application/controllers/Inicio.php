@@ -54,13 +54,13 @@ public function __construct()
 			$this->load->model('Muebles');
 			if($this->Muebles->login_model($_POST['email'],$_POST['pass']))
 			{
-				redirect('inicio');
+				redirect('Inicio/inicio');
 			}else
 			{
-				redirect('Log');
+				redirect('Inicio/Log');
 			}
 		}
-		$this->load->view('Login/index');
+		$this->load->view('login');
 	}
 	
 	public function inicio()
