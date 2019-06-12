@@ -8,6 +8,8 @@ public function __construct()
 		parent::__construct();
 		$this->load->model('Muebles');
 		$this->load->database('default');
+		$this->load->library('session');
+		$this->load->helper('url');
 	}
 
 	public function index()
@@ -46,25 +48,35 @@ public function __construct()
 
 	public function Log()
 	{
+
 		$email = $this->input->post('email');
 		$pass= $this->input->post('pass');
-		$this->Muebles->login_model($email,$pass);
+		$w = $this->Muebles->login_model($email,$pass);
+		echo "$w";
 		if (isset($_POST['pass'])) 
 		{
+			
 			$this->load->model('Muebles');
 			if($this->Muebles->login_model($_POST['email'],$_POST['pass']))
 			{
 				redirect('Inicio/inicio');
 			}else
 			{
-				redirect('Inicio/Log');
+				redirect('inicio');
 			}
 		}
+		$this->load->view('login');
+	}
+
+	public function logout()
+	{
+		$this->session->sess_destroy();
 		$this->load->view('login');
 	}
 	
 	public function inicio()
 	{
+		 
 		$this->load->view('inicio_mu');
 	}
 	public function editar()

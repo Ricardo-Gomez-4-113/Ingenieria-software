@@ -47,7 +47,7 @@
                     <a class="nav-link" href="ver">Inventario</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="log">Salir</a>
+                    <a class="nav-link" href="logout">Salir</a>
                   </li>
                 </ul>
               </div>
