@@ -36,7 +36,7 @@ public function user_login_process() {
 			
 				
                 $data = array(    'username' => $this->input->post('username'),
-                                'password' => ($this->input->post('password')));
+                                'password' => md5($this->input->post('password')));
                 
 
                 $result = $this->Login_model->login($data);            			
@@ -71,8 +71,7 @@ public function user_login_process() {
         'username' => ''
         );
         $this->session->unset_userdata('logged_in', $sess_array);
-        $data['message_display'] = 'La sesión finalizó correctamente.';
-        $this->load->view('login_view', $data);
+        $this->load->view('login_view');
      }
      public function ver()
     {
@@ -104,27 +103,7 @@ public function user_login_process() {
         $guardar_datos = $this->Muebles->del_us_model($id);
     }
 
-    public function Log()
-    {
-
-        $email = $this->input->post('email');
-        $pass= $this->input->post('pass');
-        $w = $this->Muebles->login_model($email,$pass);
-        echo "$w";
-        if (isset($_POST['pass'])) 
-        {
-            
-            $this->load->model('Muebles');
-            if($this->Muebles->login_model($_POST['email'],$_POST['pass']))
-            {
-                redirect('Inicio/inicio');
-            }else
-            {
-                redirect('inicio');
-            }
-        }
-        $this->load->view('login');
-    }
+   
     
     public function inicio()
     {
