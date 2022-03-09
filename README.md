@@ -1,33 +1,33 @@
 # Ingenieria-software
 
-## Unidad 1: Introducci髇 a la ingenier韆 del software y sistemas de informaci髇
-* 1.1. Conceptos de Ingenier韆 del Software:mitos, paradigma, ingenier韆 de software,calidad, proceso, m閠odo, herramienta, espectro de gesti髇.
-* 1.2. La importancia de la ingenier韆 del software.
-* 1.3. Historia de la Ingenier韆 del Software.
-* 1.4. Los sistemas de informaci髇: concepto,caracter韘ticas, estructuras, procesos,clasificaci髇, ERP磗, CRM, SCM.
+## Unidad 1: Introducci贸n a la ingenier铆a del software y sistemas de informaci贸n
+* 1.1. Conceptos de Ingenier铆a del Software:mitos, paradigma, ingenier铆a de software,calidad, proceso, m茅todo, herramienta, espectro de gesti贸n.
+* 1.2. La importancia de la ingenier铆a del software.
+* 1.3. Historia de la Ingenier铆a del Software.
+* 1.4. Los sistemas de informaci贸n: concepto,caracter铆sticas, estructuras, procesos,clasificaci贸n, ERP麓s, CRM, SCM.
 
-## Unidad 2: Modelos de la ingenier韆 del software
+## Unidad 2: Modelos de la ingenier铆a del software
 * 2.1. Modelo de capacidad de madurez.
 * 2.2. Marco de trabajo para el proceso.
-* 2.3. Modelos de la ingenier韆 del software: modelo de cascada, modelo de prototipos,modelo de espiral, modelo de Proceso Unificado Racional (RUP).
-* 2.4. Tendencias modernas de modelos de la ingenier韆 del software.
+* 2.3. Modelos de la ingenier铆a del software: modelo de cascada, modelo de prototipos,modelo de espiral, modelo de Proceso Unificado Racional (RUP).
+* 2.4. Tendencias modernas de modelos de la ingenier铆a del software.
 
-## Unidad 3: Planificaci髇 del proyecto de software
-* 3.1. Aplicaci髇 de herramientas para estimaci髇 de tiempos y costos de desarrollo de software: GANTT, PERT/CPM, uso de software para la estimaci髇 de tiempos y costos.
-* 3.2. 羗bito del software: recursos humanos, recursos de software reutilizables, recursos del entorno.
-* 3.3. An醠isis y gesti髇 del riesgo: estrategias, identificaci髇, proyecci髇, refinamiento, reducci髇, supervisi髇 y gesti髇 del riesgo.
+## Unidad 3: Planificaci贸n del proyecto de software
+* 3.1. Aplicaci贸n de herramientas para estimaci贸n de tiempos y costos de desarrollo de software: GANTT, PERT/CPM, uso de software para la estimaci贸n de tiempos y costos.
+* 3.2. 脕mbito del software: recursos humanos, recursos de software reutilizables, recursos del entorno.
+* 3.3. An谩lisis y gesti贸n del riesgo: estrategias, identificaci贸n, proyecci贸n, refinamiento, reducci贸n, supervisi贸n y gesti贸n del riesgo.
 
-## Unidad 4: An醠isis del proyecto de software
-* 4.1. Modelado: an醠isis, dise駉, documentaci髇.
-* 4.2. Construcci髇: codificaci髇, pruebas y evaluaci髇,manual del usuario, manual t閏nico.
-* 4.3. Medida, m閠rica e indicador.
-* 4.4. Tipos de m閠ricas: m閠ricas de proceso, m閠ricas de proyecto, m閠ricas orientadas a punto de funci髇, m閠ricas orientadas al tama駉, m閠ricas para la calidad del software.
-* 4.5. Implementaci髇 y mantenimiento: entrega, retroalimentaci髇 del cliente.*
+## Unidad 4: An谩lisis del proyecto de software
+* 4.1. Modelado: an谩lisis, dise帽o, documentaci贸n.
+* 4.2. Construcci贸n: codificaci贸n, pruebas y evaluaci贸n,manual del usuario, manual t茅cnico.
+* 4.3. Medida, m茅trica e indicador.
+* 4.4. Tipos de m茅tricas: m茅tricas de proceso, m茅tricas de proyecto, m茅tricas orientadas a punto de funci贸n, m茅tricas orientadas al tama帽o, m茅tricas para la calidad del software.
+* 4.5. Implementaci贸n y mantenimiento: entrega, retroalimentaci贸n del cliente.
 
 ## Unidad 5: Calidad del software
-* 5.1. Definici髇 de calidad y calidad del software.
+* 5.1. Definici贸n de calidad y calidad del software.
 * 5.2. Importancia de la calidad.
-* 5.3. La calidad y la globalizaci髇.
-* 5.4. Aseguramiento de la calidad del software (SQA): definici髇 y prop髎ito del SQA, problemas que resuelve el SQA, roles y responsabilidades de los equipos de desarrollo, habilidades y capacidades del personal del SQA, Actividades del SQA.
-* 5.5. Derecho inform醫ico aplicado al software: pirater韆 y 
-falsificaci髇, autor韆 y creaci髇, contratos y licencias.
+* 5.3. La calidad y la globalizaci贸n.
+* 5.4. Aseguramiento de la calidad del software (SQA): definici贸n y prop贸sito del SQA, problemas que resuelve el SQA, roles y responsabilidades de los equipos de desarrollo, habilidades y capacidades del personal del SQA, Actividades del SQA.
+* 5.5. Derecho inform谩tico aplicado al software: pirater铆a y 
+falsificaci贸n, autor铆a y creaci贸n, contratos y licencias.
